@@ -11,11 +11,11 @@ namespace PriceChecker
 		/// To have an indicator on price quality and for monitoring purpose, COLT has a control that counts number of dates with more that n official prices by date.
 		/// </summary>
 		/// <returns>
-		/// The number of dates with at least n official prices.
+		/// The number of dates with at least th official prices.
 		/// </returns>
 		/// <param name="prices">Input prices coming from MSD.</param>
-		/// <param name="n">The threshold on number of prices.</param>
-		public int CheckPrices(List<PriceDto> prices, int n)
+		/// <param name="th">The threshold on number of prices.</param>
+		public int CheckPrices(List<PriceDto> prices, int th)
         {
             //body to add
             int count = 0;
